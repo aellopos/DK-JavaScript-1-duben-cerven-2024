@@ -12,7 +12,7 @@
 
 ## Lekce
 
-|    | Datum     | Téma             | Prezentace                                                           | Rešení        | Domácí úkol
+|    | Datum     | Téma             | Prezentace                                                           | Příklady - lekce        | Domácí úkol
 | -- | --------- | ---------------- | -------------------------------------------------------------------- | ------------- | -------------
 | 01  | 04.04.2024 | Úvod | [materiály](https://kodim.cz/czechitas/js1/lekce/uvod-do-js/javascript) | [zadání/řešení](./solution/lekce-01.md) | -
 | 02  | 11.04.2024 | Úvod do Gitu a GitHubu | [materiály](./pdfs/lekce02.pdf) | [zadání/řešení](./solution/lekce-02.md) | -

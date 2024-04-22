@@ -11,7 +11,19 @@
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+#### Měsíční příjem
+
+```js
+document.body.innerHTML += 21 * 7 * 320;
+```
+
+#### Daň
+
+```js
+document.body.innerHTML += '<br>';
+document.body.innerHTML += Math.floor(21 * 7 * 265 * (1 - 0.6) * 0.15);
+```
 
 </details>
 
@@ -26,7 +38,20 @@ V programu kin se často uvádí délka filmu v minutách. Například rozšíř
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+#### Počet celých hodin
+
+```js
+document.body.innerHTML += Math.floor(223 / 60);
+```
+
+#### A počet zbývajících minut
+
+```js
+document.body.innerHTML += '<br>';
+document.body.innerHTML += 223 % 60;
+```
+
 
 </details>
 
@@ -40,7 +65,11 @@ Tady zatím nic není :)
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+```js
+'Franta' + '.' + 'Dobrota' + '@mujmail.com';
+```
+
 
 </details>
 
@@ -61,7 +90,14 @@ Představte si, že jste pořadatelé ultramaratonského závodu. Závod začín
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+```js
+const start = 15;
+const delka = 10;
+const konec = (start + delka) % 24;
+document.body.innerHTML = 'Čas konce v hodinách: ' + konec;
+```
+
 
 </details>
 
@@ -74,7 +110,11 @@ Založte si JavaScriptový program a pomocí `document.body.innerHTML` a funkce 
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+```js
+document.body.innerHTML = Math.random();
+```
+
 
 </details>
 
@@ -92,6 +132,14 @@ Tady zatím nic není :)
 <details>
 <summary><b>Řešení</b></summary>
 
-Tady zatím nic není :)
+
+```js
+const wageInEur = 20;
+const rate = 24.55;
+const wageInCzk = Math.round(wageInEur * rate);
+document.body.innerHTML = '<h1>Mzda v korunách: ' + wageInCzk + ' Kč</h1>';
+```
+
+
 
 </details>
