@@ -69,6 +69,8 @@ Tady zatím nic není :)
 
 </details>
 
+# Cvičení: Pokročilé třídy a innerHTML
+
 ## Nekup to, třídy
 
 Vytvořte si repozitář ze šablony [cviceni-nekupto](https://github.com/aellopos/cviceni-nekupto). Repozitář obsahuje stránku, která nabízí několik neotřelých produktů.
